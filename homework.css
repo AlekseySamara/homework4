@@ -1,0 +1,344 @@
+.main-header, .content-header, .content-main-two, .content-main-first, .main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.content-img {
+  position: relative;
+}
+.background-header {
+  background: rgb(65,224,216); 
+  background-image: url(./layout2/images/path_5.png);
+  background-position: top right 700px;
+  background-repeat: no-repeat;
+}
+.background-main-first {
+  background: rgb(38,42,52);
+}
+.main-image-phone {
+  position: relative;
+}
+.background-main-second {
+  background: rgb(65,224,216);
+}
+.background-footer-first {
+  background: rgb(38,42,52);
+}
+.container-one, .container-two, .container-three, .container-four, .container-five {
+  width: 940px;
+  margin: 0px auto;
+}
+.navigation-one, .navigation-two {
+  width: 140px;
+  height: 45px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 33px;
+  color:rgb(238,251,250);
+  font-weight: 600;
+  font-family: "Arial";
+  background-color: transparent;
+  border: 0;
+}
+.navigation-one:hover {
+  background-color: rgb(21, 23, 27);
+  color: rgb(235, 235, 235)
+}
+.navigation-two:hover {
+  background-color: rgb(21, 23, 27);
+  color: rgb(235, 235, 235)
+  
+}
+.navigation-one {
+  margin: 60px 20px 0px 20px;
+}
+.logo {
+  margin: 20px 0px 0px 40px;
+}
+.container-one, .container-three {
+  height: 900px;
+  overflow: hidden;
+}
+.container-two {
+  height: 860px;
+}
+.content-phone-one {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+}
+.content-phone-two {
+  position: absolute;
+  top: 325px;
+  left: 30px;
+}
+.content-info-text {
+  margin: 240px 0px 0px 0px;
+}
+.bold {
+  font-size: 43px;
+  line-height: 65px;
+  color: #1d1d1d;
+  font-weight: 700;
+  font-family: "Arial";
+}
+.italic {
+  font-size: 43px;
+  line-height: 65px;
+  color: #e7e7e7;
+  font-weight: 700;
+  font-family: "Arial";
+}
+.basic-text {
+  font-size: 15px;
+  line-height: 33px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Arial";
+  margin: 90px 0px 0px 0px;
+}
+.content-info-img {
+  margin: 85px 0px 0px 0px;
+}
+.button-img{
+  background-color: transparent;
+  border: 0;
+}
+.small-text {
+  margin: 235px 0px 0px 0px;
+  font-size: 43px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Arial";
+}
+.big-text {
+  margin: 100px 0px 0px 0px;
+  font-size: 15px;
+  line-height: 33px;
+  color: #dadada;
+  font-weight: 400;
+  font-family: "Arial";
+}
+.button {
+  margin: 95px 0px 0px 0px;
+  width: 140px;
+  height: 45px;
+  font-size: 12px;
+  line-height: 33px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Arial";
+  background-color: rgb(122,233,228);
+  text-transform: uppercase;
+  border: 0;
+}
+.slide {
+  height: 400px;
+  width: 230px;
+  border: 0;
+  background-color: rgb(81,87,98);
+  position: relative;
+}
+.slide-one {
+  margin: 265px 10px 0px 0px;
+}
+.slide-two {
+  margin: 265px 0px 0px 0px;
+}
+.content-main-two {
+  position: relative;
+}
+.dot {
+  height: 13px;
+  width: 13px;
+  background-color: rgb(81,87,98);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+.dots {
+  position: absolute;
+  top: 680px;
+  left: 180px;
+}
+.slim {
+  height: 13px;
+  width: 25px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 39%;
+  display: inline-block;
+  margin-right: 5px;
+}
+.dot-two {
+  background-color: rgb(179,243,240);
+
+}
+.text-information-one {
+  text-align: center;
+  margin: 225px 0px 0px 0px;
+  font-size: 43px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Arial";
+  white-space: pre;
+}
+.text-information-two {
+  text-align: center;
+  font-size: 15px;
+  line-height: 33px;
+  color: #262a34;
+  font-weight: 400;
+  font-family: "Arial";
+}
+.content-main-phone-one {
+  position: relative;
+  top: 45px;
+}
+.content-main-phone-two {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
+.quote {
+  background: white;
+  width: 600px;
+  height: 230px;
+  max-height: 230px;
+  text-align: center; 
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 125px 0px 0px 0px;
+}
+.text-quote {
+  font-size: 15px;
+  line-height: 33px;
+  color: #262a34;
+  font-weight: 400;
+  font-family: "Arial";
+  text-align: left;
+  display: inline-block;
+  margin: 50px 90px 0px 10px;
+}
+.text-cite {
+  color: rgb(121,232,227);
+  font-style: normal;
+  display: inline-block;
+  text-align: left;
+  margin: 20px 380px 0px 0px;
+  font-size: 15px;
+  line-height: 33px;
+  font-weight: 400;
+  font-family: "Arial";
+}
+.main-container{
+  position: relative;
+}
+.dots-two {
+  position: absolute;
+  top: 380px;
+  left: 580px;
+}
+.prime-one {
+  text-align: left;
+  margin: 20px 0px 0px 50px;
+  color: rgb(121,232,227);
+  font-size: 40px;
+  display: block;
+  float: left;
+}
+.prime-two {
+  text-align: right;
+  color: rgb(121,232,227);
+  font-size: 40px;
+  display: block;
+  margin: 0px 0px 0px 500px;
+  position: absolute;
+}
+.container-four {
+  display: flex;
+  justify-content: center;
+  height: 445px;
+}
+.footer-container {
+  justify-content: center;
+}
+.footer-container-text {
+  text-align: center;
+}
+.text-forma-one {
+  margin: 80px 0px 0px 0px;
+  font-size: 43px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Arial";
+}
+.text-forma-two {
+  margin: 50px 0px 0px 0px;
+  font-size: 15px;
+  line-height: 33px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Arial";
+  text-align: center;
+}
+.placeholder {
+  margin: 75px 20px 0px 0px;
+  width: 425px;
+  height: 50px;
+  background-color:rgb(81,85,93);
+  font-size: 15px;
+  line-height: 33px;
+  font-weight: 400;
+  font-family: "Arial";
+  padding: 0px 0px 0px 30px;
+  border: 0;
+  color: white;
+}
+.button-send {
+  width: 140px;
+  height: 50px;
+  font-size: 15px;
+  line-height: 33px;
+  color: #41e0d8;
+  font-weight: 400;
+  font-family: "Arial";
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border: 0;
+}
+.container-five {
+  display: flex;
+  justify-content: center;
+  height: 298px;
+}
+.footer-second-conteiner {
+  text-align: center;
+}
+.footer-second-logo {
+  margin: 80px 0px 0px 0px;
+}
+.footer-second-text {
+  margin: 40px 0px 0px 0px;
+}
+.footer-text-infom {
+  font-size: 15px;
+  line-height: 33px;
+  color: #262a34;
+  font-weight: 400;
+  font-family: "Arial";
+}
+.footer-bold {
+  text-transform: uppercase;
+  color: #41e0d8;
+}
+  
+
+
+
+
+
+
+
+
